@@ -6,6 +6,9 @@
 </head>
 <html lang="en">
     <body>
+        <header id="header_back">
+            <img src="StudentWellnessEmailBanner-01.jpg" alt="banner">
+        </header>
         <h1>Inventory</h1>
         <br><br>
         <table> 
@@ -18,20 +21,50 @@
                 <th>Quantity</th>
             </tr>
             <tr>
-                <td>HP</td>
-                <td>Cyan</td>
-                <td>15.99</td>
-                <td>6/14/03</td>
-                <td>7/5/08</td>
-                <td>3</td>
+                <td>
+                <div class = "dropdown">
+                    <select>
+                        <option value="brother">Brother</option>
+                        <option value="canon">Canon</option>
+                        <option value="dell">Dell</option>
+                        <option value="epson">Epson</option>
+                        <option value="hp">HP</option>
+                        <option value="xerox">Xerox</option>
+                    </select>
+                        
+                </div>
+                </td>
+                <td>
+                    <div class = "dropdown">
+                        <select>
+                                <option value="black">Black</option>
+                                <option value="cyan">Cyan</option>
+                                <option value="magenta">Magenta</option>
+                                <option value="yellow">Yellow</option>
+                        </select>
+                            
+                    </div>
+                 </td>
+                 <td>
+                        <input type="number" name="price">
+                 </td>
+                 <td>
+                     <input type="date" name="purchasedate">
+                 </td>
+                 <td>
+                     <input type="date" name="expiredate">
+                 </td>
+                 <td>
+                     <input type="number" name="quantity">
+                 </td>
             </tr>
             <tr>
-                <td>Brother</td>
-                <td>Magenta</td>
-                <td>8.99</td>
-                <td>3/21/17</td>
-                <td>12/16/20</td>
-                <td>10</td>
+                <td>Xerox</td>
+                <td>Black</td>
+                <td>20.99</td>
+                <td>8/16/12</td>
+                <td>11/17/14</td>
+                <td>2</td>
             </tr>
         </table>
         <a href= "index.html">Checkout Page </a>
