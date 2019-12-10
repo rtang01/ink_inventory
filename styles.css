@@ -9,10 +9,13 @@ img{
 table{
     width:70%;
     font:17px Calibri;
+    margin-left:auto;
+    margin-right:auto;
 }
 table, th, td{
     border: solid 1px #DDD;
     border-collapse: collapse;
     padding: 2px 3px;
     text-align: center;
+    color: black;
 }

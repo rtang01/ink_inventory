@@ -1,3 +1,4 @@
+//https://www.encodedna.com/javascript/dynamically-add-remove-rows-to-html-table-using-javascript-and-save-data.htm
 var arrHead = new Array();
     arrHead = ['', 'Brand', 'Color', 'Price','Purchase Date','Experation Date','Quantity'];      // SIMPLY ADD OR REMOVE VALUES IN THE ARRAY FOR TABLE HEADERS.
 
@@ -17,6 +18,7 @@ var arrHead = new Array();
 
         var div = document.getElementById('cont');
         div.appendChild(empTable);    // ADD THE TABLE TO YOUR WEB PAGE.
+        addRow()
     }
 
     // ADD A NEW ROW TO THE TABLE.s
