@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<head>
-    <title>SHCC Ink Inventory</title>
-    <script src= "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<img src="StudentWellnessEmailBanner-01.jpg" alt="banner">
-<html lang="en">
-    <body onload ="createTable()">
-        <p>
-            <input type = "button" id="addRow" value = "+ Row" onclick="addRow()"/>
-        </p>
-
-        <div id="cont"></div>
-
-        <p>
-            <input type = "button" id = "bt" value= "save" onclick="submit()"/>
-        </p>
-
-        <a href= "index.html">Checkout Page </a>
-    </body>
-    <script>
-    var arrHead = new Array();
+var arrHead = new Array();
     arrHead = ['', 'Brand', 'Color', 'Price','Purchase Date','Experation Date','Quantity'];      // SIMPLY ADD OR REMOVE VALUES IN THE ARRAY FOR TABLE HEADERS.
 
     // FIRST CREATE A TABLE STRUCTURE BY ADDING A FEW HEADERS AND
@@ -102,5 +80,3 @@
         // SHOW THE RESULT IN THE CONSOLE WINDOW.
         console.log(values);
     }
-    </script>
-</html>
