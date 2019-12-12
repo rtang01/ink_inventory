@@ -5,6 +5,7 @@
     <title>SHCC Ink Inventory</title>
     <script src= "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src= "styling.js"></script>
 </head>
 <body>
     <header id="header_back">
@@ -22,10 +23,18 @@
             <input type="text" name="department">
         <br>
     <br>
-    <input type = "submit" value="submit"
     </form>
-    <br>
-    <br>
+    <button id= "myBtn">Submit</button>
+    
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>The Eagle has landed</p>
+        </div>
+    </div>
+    
     <a href= "inventory.html">Inventory </a>
     
 </body>
