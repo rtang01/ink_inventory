@@ -6,6 +6,7 @@
     <script src= "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"></script>
     <link rel="stylesheet" href="styles.css">
     <script src= "styling.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header id="header_back">
@@ -13,7 +14,7 @@
     </header>
     <h2>Please enter a name to checkout: </h2>
     <form>
-       <h3>Name:</h3> 
+       <h3>Name:</h3>
         <br>
             <input type="text" name="name">
         <br>
@@ -24,18 +25,25 @@
         <br>
     <br>
     </form>
-    <button id= "myBtn">Submit</button>
-    
+    <!--Open Modal source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal-->
+    <button id= "myBtn">Open Modal</button>
+    <!--Modal-->
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
-          <span class="close">&times;</span>
-          <p>The Eagle has landed</p>
+          <div class = "modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+          </div>
+            <p>The Eagle has landed</p>
+        </div>
+        <div class = "modal-footer">
+          <h3>Modual Footer</h3>
         </div>
     </div>
-    
+  </div>
     <a href= "inventory.html">Inventory </a>
-    
+
 </body>
 </html>
