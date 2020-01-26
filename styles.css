@@ -24,6 +24,9 @@ h2, h3{
     color:black;
 }
 
+p{
+  color:black;
+}
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
