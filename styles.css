@@ -20,7 +20,11 @@ table, th, td{
     text-align: center;
     color: black;
 }
-h2, h3{
+h2{
+  color: white;
+}
+
+h3, h4{
     color:black;
 }
 
@@ -78,21 +82,16 @@ p{
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #0000b3;
   color: white;
 }
 
 .modal-body {padding: 2px 16px;}
 
-.modal-footer {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
