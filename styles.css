@@ -61,6 +61,47 @@ p{
   animation-duration: 0.4s
 }
 
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate1 */
+.myBtn{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0057B8;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: fixed;
+  padding: fixed;
+  width: fixed;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin:fixed;
+}
+
+.myBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.myBtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.myBtn:hover span {
+  padding-right: 25px;
+}
+
+.myBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 /* Add Animation */
 @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0}
@@ -89,7 +130,7 @@ p{
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #0000b3;
+  background-color: #0057B8;
   color: white;
 }
 
